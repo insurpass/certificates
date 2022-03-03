@@ -5,3 +5,4 @@
 - Shop Insure
 - Parcel Guard
 - Keke Pass
+- Okada Pass
