@@ -3,3 +3,5 @@
 ## Contain certificates for:
 
 - Shop Insure
+- Parcel Guard
+- Keke Pass
