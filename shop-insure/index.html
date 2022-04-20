@@ -4,9 +4,179 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <title>Shop Insure Certificate</title>
   </head>
+  <style type="text/css">
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+
+    .image {
+      width: 70px;
+      height: 70px;
+      margin-left: 10px;
+    }
+
+    .holder {
+      border: 10px solid #000;
+      position: relative;
+    }
+
+    .holder-div {
+      background: url("logo.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 800px;
+      opacity: 0.2;
+      height: 100vh;
+      width: 90vw;
+      position: absolute;
+      margin-left: -45vw;
+      margin-top: -50vh;
+      top: 50%;
+      left: 50%;
+    }
+
+    .title {
+      text-align: center;
+      text-transform: uppercase;
+      color: navy;
+    }
+
+    .title_p {
+      text-align: center;
+    }
+
+    .title_h2 {
+      text-transform: uppercase;
+      color: red;
+      text-align: center;
+      text-decoration: underline;
+    }
+
+    .form-wrapper {
+      height: 100vh;
+      width: 70vw;
+      margin: auto;
+    }
+
+    .grid-body {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+
+    .form-lines {
+      border: 1px solid #000;
+      padding: 5px 5px 22px 5px;
+    }
+
+    .form-wrapper_2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .form-lines_2 {
+      border: 1px solid #000;
+      padding: 5px;
+    }
+
+    .grid-area {
+      display: grid;
+      grid-template-areas: "sign space1 space2 space3" "sign day month year";
+      grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    }
+
+    .grid-1 {
+      border: 1px solid #000;
+      grid-area: sign;
+      padding: 5px 5px 22px 5px;
+    }
+
+    .grid-2 {
+      border: 1px solid #000;
+      grid-area: space1;
+      padding: 5px 5px 22px 5px;
+    }
+
+    .grid-3 {
+      border: 1px solid #000;
+      grid-area: space2;
+      padding: 5px 5px 22px 5px;
+    }
+
+    .grid-4 {
+      border: 1px solid #000;
+      grid-area: space3;
+      padding: 5px 5px 22px 5px;
+    }
+
+    .grid-5 {
+      border: 1px solid #000;
+      grid-area: day;
+      padding: 5px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .grid-6 {
+      border: 1px solid #000;
+      grid-area: month;
+      padding: 5px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .grid-7 {
+      border: 1px solid #000;
+      grid-area: year;
+      padding: 5px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .grid-p {
+      text-align: center;
+      margin-bottom: 100px;
+    }
+
+    .grid-span {
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: 700;
+      color: navy;
+    }
+
+    .flex-holder {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .flex-body {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      align-items: center;
+    }
+
+    .flex-span {
+      margin: 10px 0;
+    }
+
+    .flex-span_2 {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      align-items: center;
+    }
+
+    .flex-span_3 {
+      margin: 10px 0;
+    }
+  </style>
   <body>
     <div>
       <img class="image" src="logo.png" />
